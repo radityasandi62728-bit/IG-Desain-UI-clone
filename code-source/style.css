@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.main-container {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    padding: 20px;
+    justify-content: space-between;
+}
+.body-container {
+    margin: 0;
+    padding: 0;
+}
+.story {
+
+}
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(0, 0, 0);
+    }
+    header {
+        background-color: white;
+        height: 10vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        color: black;
+    }
+    .story-add {
+        width: 10%;
+        height: 5vh;
+        font-size: 2rem;
+        padding: 2px;
+        margin-left: 5px;
+    }
+    .logo {
+        width: 50%;
+        height: 10vh;
+        transform: translateX(-10px);
+        background-image: url(/asset/picture/Instagram_logo.svg.png);
+        object-fit: cover;
+        background-size: cover;
+    }
+    .like {
+        width: 10%;
+        height: 5vh;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .story  {
+        width: 150%;
+        height: 15vh auto;
+        margin-top:2px;
+        padding-left: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        overflow-x: scroll;
+        flex-shrink: 0;
+    }
+    .story1 {
+        width: 25vw;
+        height: 14vh;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .story2 {
+        width: 25vw;
+        height: 14vh;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .story3 {
+        width: 25vw;
+        height: 14vh;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .story4 {
+        width: 25vw;
+        height: 14vh;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .story5 {
+        width: 25vw;
+        height: 14vh;
+        border-radius: 50%;
+        background-color: blue;
+    }
+    .post {
+        margin-top: 2px;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+    }
+
+}
